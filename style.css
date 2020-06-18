@@ -149,6 +149,16 @@ img {
 /*==================
  Services Home Page
 ====================*/
+
+@media (max-width: 320px) {
+
+  .thumbnailHome .thumbnail-description {
+    min-width: 40%;
+    height: 250px;
+  }
+
+  
+}
 .thumbnailHome {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9);
   transition: 0.3s;
