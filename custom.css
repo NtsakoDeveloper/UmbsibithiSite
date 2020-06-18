@@ -68,15 +68,16 @@
     height: 300px;
     width:100%;
     background-image: url(assets/img/Community/WhatsApp\ Image\ 2020-01-28\ at\ 11.58.31\ \(1\).jpeg);
+
   }
 
   .thumbnail3 {
     transition: 0.3s;
     min-width: 40%;
     border-radius: 5px;
-    height: 400px;
+    height: 300px;
     width:100%;
-    background-image: url(assets/img/b4.jpg);
+    background-image: url(assets/img/Head.jpeg);
     background-repeat: no-repeat;
   }
  
