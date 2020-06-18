@@ -16,19 +16,14 @@
     float: left;
 }
 
-@media only screen and (max-width: 479px){
-   
-.thumbnail { width: 90%; }
-.thumbnail2 { width: 90%; }
-.thumbnail2A { width: 90%; }
-}
+
 
 .thumbnail {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
     transition: 0.3s;
     min-width: 40%;
     border-radius: 5px;
-    height: 450px;
+    height: 469px;
     width:100%;
   }
 
@@ -38,19 +33,19 @@
     border-radius: 5px;
     height: 350px;
     width:100%;
-    background-image: url(assets/img/bh.jpg);
+    background-image: url(assets/img/ab4.JPG);
+    
   }
 
   .thumbnail2A {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     transition: 0.3s;
-    min-width: 40%;
     border-radius: 5px;
     height: 470px;
     width:100%;
-    background-image: url(assets/img/Coal-Mine-Cyn.jpg);
-    background-size: auto;
-    
-    
+    background-image: url(assets/img/ab4.JPG);
+    background-size: cover;
+      
   }
 
   .thumbnail1A {
@@ -69,7 +64,7 @@
     border-radius: 5px;
     height: 300px;
     width:100%;
-    background-image: url(assets/img/Community/WhatsApp\ Image\ 2020-01-28\ at\ 11.58.31\ \(1\).jpeg);
+    background-image: url(assets/img/Community/WhatsApp\ Image\ 2020-01-28\ at\ 11.58.35.jpeg)
 
   }
 
@@ -85,15 +80,14 @@
  
   .thumbnail-description {
     min-height: 40px;
-    padding: 30px;
-    font-size: 20px;
+    font-size: 18px;
     width:100%;
   }
  
   .thumbnail-description2 {
-     font-size: x-large;
      position: relative;
-     bottom: -10px;
+     padding: 40px;
+     font-size: 20px;
   }
  
   .thumbnail:hover {
