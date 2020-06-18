@@ -24,6 +24,35 @@
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="carousel.css">
+
+    <script>
+
+       /*
+       $(document).ready(function(){
+
+      $(".filter-button").click(function(){
+    var value = $(this).attr('data-filter');
+    
+    if(value == "all")
+    {
+        //$('.filter').removeClass('hidden');
+        $('.filter').show('1000');
+    }
+    else
+    {
+      $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+      $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+        $(".filter").not('.'+value).hide('3000');
+        $('.filter').filter('.'+value).show('3000');
+        
+    }
+});
+
+*/
+    </script>
+   
+  
+  });
 </head>
 <body>
 
@@ -55,9 +84,9 @@
             <li ><a href="index.html">Home</a></li>
             <li><a href="About.html">About Us</a></li> 
             <li><a href="OurServices.html">Our Services</a></li>  
-            <li><a href="#mu-chef">Management</a></li>                                                                
+            <li class="active"><a href="Management.html">Management</a></li>                                                                
             <li><a href="Community.html">Sustainability</a></li>
-            <li class="active"><a href="Media.html">Media</a></li>
+            <li ><a href="Media.html">Media</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expanded="false">Opportunities <span class="caret"></span>
                <ul class="dropdown-menu">
@@ -78,17 +107,102 @@
     <div id="myCarousel" class="carousel slide" class="active">
             <div class="carousel-inner" role="listbox">
               <div class="item active">
-                <img class="first-slide" src="assets/img/b4.jpg" alt="First slide">
+                <img class="first-slide" src="assets/img/Coal-Mine-Cyn.jpg" alt="First slide">
                 <div class="container">
                   <div class="carousel-caption">
-                    <h1><b>Management</b></h1>
                   </div>
                 </div>
               </div>
             </div>
           </div><!-- /.carousel -->
       
-         
+          <hr>
+          <hr>
+
+<div class="container">
+	<div class="">
+		<h2>Our Leadership</h2>
+	</div>
+    
+    <div>
+       <!---- <button class="btn btn-primary filter-button" data-filter="all">All</button>-->
+       <!----   <button class="btn btn-default filter-button" data-filter="photo">Photo</button>-->
+       <!-- <button class="btn btn-default filter-button" data-filter="graphic">Our Board</button> -->
+        <!----  <button class="btn btn-default filter-button" data-filter="webdesign"></button> -->
+    </div>
+    <br/>
+    
+    <div class="row">
+        <div class="col-md-3 filter photo">
+            <div class="each-item">
+                <img class="port-image" src="assets/img/profile-photo-placeholder.jpg"/>
+                <div class="cap1">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae minima laudantium eos aliquam blanditiis expedita</h4>
+                </div>
+                <div class="cap2">
+                    <p class="text-center">CEO</p>
+                </div>
+                
+            </div>
+            <h4>Sifiso Mazubane</h4>
+            
+        </div>
+        
+        <div class="col-md-3 filter graphic photo">
+            <div class="each-item">
+                <img class="port-image" src="assets/img/profile-photo-placeholder.jpg"/>
+                <div class="cap1">
+                  <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae minima laudantium eos aliquam blanditiis expedita</h4>
+                   
+                </div>
+                <div class="cap2">
+                    <p class="text-center">Visit</p>
+                </div>
+            </div>
+            <h4>Nolwazi Qata</h4>
+        </div>
+        
+        <div class="col-md-3 filter webdesign">
+            <div class="each-item">
+                <img class="port-image" src="assets/img/profile-photo-placeholder.jpg"/>
+                <div class="cap1">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae minima laudantium eos aliquam blanditiis expedita</h4>
+                </div>
+                <div class="cap2">
+                    <p class="text-center">Visit</p>
+                </div>
+            </div>
+            <h4>Basani Mathebula</h4>
+        </div>
+        
+        <div class="col-md-3 filter graphic photo">
+            <div class="each-item">
+                <img class="port-image" src="assets/img/profile-photo-placeholder.jpg"/>
+                <div class="cap1">
+                  <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae minima laudantium eos aliquam blanditiis expedita</h4>
+                </div>
+                <div class="cap2">
+                    <p class="text-center">Visit</p>
+                </div>
+            </div>
+            <h4>Yoli Balfour </h4>
+        </div>
+        
+        <div class="col-md-3 filter webdesign graphic">
+            <div class="each-item">
+                <img class="port-image" src="assets/img/profile-photo-placeholder.jpg"/>
+                <div class="cap1">
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae minima laudantium eos aliquam blanditiis expedita</h4>
+                </div>
+                <div class="cap2">
+                    <p class="text-center">Visit</p>
+                </div>
+            </div>
+            <h4>Sturu Pasiya</h4>
+        </div>
+        
+    </div>
+</div>
 
 
            <footer id="footer" class="footer">
@@ -180,7 +294,7 @@
  <script type="text/javascript" src="assets/js/bootstrap-datepicker.js"></script> 
  <!-- Ajax contact form  -->
  <script type="text/javascript" src="assets/js/app.js"></script>
-
+ 
  <!-- Custom js -->
  <script src="assets/js/custom.js"></script> 
     
