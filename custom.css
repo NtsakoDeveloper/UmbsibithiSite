@@ -21,7 +21,8 @@
     transition: 0.3s;
     min-width: 40%;
     border-radius: 5px;
-    height: 350px;
+    height: 420px;
+    width:440px;
   }
 
   .thumbnail2 {
@@ -29,6 +30,7 @@
     min-width: 40%;
     border-radius: 5px;
     height: 350px;
+    width:960px;
     background-image: url(assets/img/bh.jpg);
   }
 
@@ -37,7 +39,7 @@
     min-width: 40%;
     border-radius: 5px;
     height: 400px;
-    background-image: url(assets/img/ab3.JPG);
+    background-image: url(assets/img/Coal-Mine-Cyn.jpg);
     
   }
 
@@ -47,6 +49,7 @@
     min-width: 40%;
     border-radius: 5px;
     height: 300px;
+    width:440px;
     
   }
 
@@ -69,12 +72,13 @@
  
   .thumbnail-description {
     min-height: 40px;
-    padding: 69px;
+    padding: 30px;
+    font-size: 20px;
   }
  
   .thumbnail-description2 {
     min-height: 40px;
-    padding: 69px;
+    padding: 10px;
   }
  
   .thumbnail:hover {
