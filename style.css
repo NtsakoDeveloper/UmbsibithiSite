@@ -526,24 +526,17 @@ img {
 
 #mu-about-us {
   display: inline;
-  float: left;
-  width: 100%;
   padding: 27px 0;
 }
 
 .mu-about-us-area {
   display: inline;
-  float: left;
-  width: 100%;
 }
 
 .mu-about-us-right {
   display: inline;
-  float: left;
-  margin-top: 20px;
   padding-top: 30px;
   padding-left: 15px;
-  width: 100%;
 }
 
 .mu-about-us-right ul {
