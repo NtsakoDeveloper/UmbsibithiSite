@@ -36,6 +36,8 @@
     height: 370px;
     width:100%;
     background-image: url(assets/img/ab4.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
     
   }
 
@@ -90,7 +92,7 @@
      position: relative;
      padding: 40px;
      font-size: 20px;;
-     padding: 1px;
+     padding: 25px;
      z-index: 20;
   }
  
