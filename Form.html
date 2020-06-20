@@ -57,7 +57,7 @@
               <li><a href="OurServices.html">Our Services</a></li>  
               <li ><a href="Management.html">Management</a></li>                                                                
               <li><a href="Community.html">Sustainability</a></li> 
-              <li class="active"><a href="Media.html">Media</a></li>
+              <li><a href="Media.html">Media</a></li>
               <li class="dropdown">
                 <a class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expanded="false">Opportunities <span class="caret"></span>
                  <ul class="dropdown-menu">
@@ -98,6 +98,7 @@
         
         <!-- Form Name -->
         <legend><center><h2><b>Registration Form</b></h2></center></legend><br>
+        <p style="text-align: center;">(Confirm how opportunity application will be conducted)</p>
         
         <!-- Text input-->
         
@@ -122,28 +123,41 @@
             </div>
           </div>
         </div>
+
+        <div class="form-group"> 
+            <label class="col-md-4 control-label">Gender</label>
+              <div class="col-md-4 selectContainer">
+              <div class="input-group">
+                  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+              <select name="department" class="form-control selectpicker">
+                <option value="">Select gender</option>
+                <option>Male</option>
+                <option>Female</option>
+              </select>
+            </div>
+          </div>
+          </div>
         
           <div class="form-group"> 
-          <label class="col-md-4 control-label">Department / Office</label>
+          <label class="col-md-4 control-label">Province</label>
             <div class="col-md-4 selectContainer">
             <div class="input-group">
-                <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+                <span class="input-group-addon"><i class="glyphicon glyphicon-road"></i></span>
             <select name="department" class="form-control selectpicker">
-              <option value="">Select your Department/Office</option>
-              <option>Department of Engineering</option>
-              <option>Department of Agriculture</option>
-              <option >Accounting Office</option>
-              <option >Tresurer's Office</option>
-              <option >MPDC</option>
-              <option >MCTC</option>
-              <option >MCR</option>
-              <option >Mayor's Office</option>
-              <option >Tourism Office</option>
+              <option value="">Select Province</option>
+              <option>Limpopo</option>
+              <option>Gauteng</option>
+              <option >Free State</option>
+              <option >Western Cape</option>
+              <option >Kwazulu-Natal</option>
+              <option >North-West</option>
+              <option >Mpumalanga</option>
+              <option >Northen Cape</option>
+              <option >Eastern Cape</option>
             </select>
           </div>
         </div>
-        </div>
-          
+        </div>          
         <!-- Text input-->
         
         <div class="form-group">
@@ -156,29 +170,6 @@
           </div>
         </div>
         
-        <!-- Text input-->
-        
-        <div class="form-group">
-          <label class="col-md-4 control-label" >Password</label> 
-            <div class="col-md-4 inputGroupContainer">
-            <div class="input-group">
-          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-          <input name="user_password" placeholder="Password" class="form-control"  type="password">
-            </div>
-          </div>
-        </div>
-        
-        <!-- Text input-->
-        
-        <div class="form-group">
-          <label class="col-md-4 control-label" >Confirm Password</label> 
-            <div class="col-md-4 inputGroupContainer">
-            <div class="input-group">
-          <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-          <input name="confirm_password" placeholder="Confirm Password" class="form-control"  type="password">
-            </div>
-          </div>
-        </div>
         
         <!-- Text input-->
                <div class="form-group">
@@ -203,8 +194,18 @@
             </div>
           </div>
         </div>
+
+        <div class="form-group">
+            <label class="col-md-4 control-label">Contact No.</label>  
+              <div class="col-md-4 inputGroupContainer">
+              <div class="input-group">
+                  <input type="file" id="files" name="files" multiple><br><br>
+              </div>
+            </div>
+          </div>
         
         <!-- Select Basic -->
+
                 
         <!-- Button -->
         <div class="form-group">
