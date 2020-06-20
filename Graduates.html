@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Media</title>
+    <title>Graduates</title>
 
    
     <!-- Font awesome -->
@@ -24,6 +24,35 @@
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="custom.css">
     <link rel="stylesheet" href="carousel.css">
+
+    <script>
+
+       /*
+       $(document).ready(function(){
+
+      $(".filter-button").click(function(){
+    var value = $(this).attr('data-filter');
+    
+    if(value == "all")
+    {
+        //$('.filter').removeClass('hidden');
+        $('.filter').show('1000');
+    }
+    else
+    {
+      $('.filter[filter-item="'+value+'"]').removeClass('hidden');
+      $(".filter").not('.filter[filter-item="'+value+'"]').addClass('hidden');
+        $(".filter").not('.'+value).hide('3000');
+        $('.filter').filter('.'+value).show('3000');
+        
+    }
+});
+
+*/
+    </script>
+   
+  
+  });
 </head>
 <body>
 
@@ -55,18 +84,18 @@
               <li ><a href="index.html">Home</a></li>
               <li><a href="About.html">About Us</a></li> 
               <li><a href="OurServices.html">Our Services</a></li>  
-              <li ><a href="Management.html">Management</a></li>                                                                
+              <li class="active"><a href="Management.html">Management</a></li>                                                                
               <li><a href="Community.html">Sustainability</a></li> 
-              <li class="active"><a href="Media.html">Media</a></li>
+              <li><a href="Media.html">Media</a></li>
               <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expanded="false">Opportunities <span class="caret"></span>
-                 <ul class="dropdown-menu">
-                    <li><a href="procurement.html">procurement</a></li>
-                    <li><a href="Vac.html">Vacancies</a></li>
-                    <li><a href="Graduates.html">Our Gradautes(In training Program)</a></li>
-                    <li><a href="Learnership.html">Learnership</a></li>
-                  </ul>
-                </li>
+               <a class="dropdown-toggle" data-toggle="dropdown" role="button"  aria-expanded="false">Opportunities <span class="caret"></span>
+                <ul class="dropdown-menu">
+                   <li><a href="procurement.html">procurement</a></li>
+                   <li><a href="Vac.html">Vacancies</a></li>
+                   <li><a href="Graduates.html">Our Gradautes(In training Program)</a></li>
+                   <li><a href="Learnership.html">Learnership</a></li>
+                 </ul>
+               </li>
               <li><a href="Contact.html">Contact Us</a></li> 
             </ul>                            
           </div><!--/.nav-collapse -->       
@@ -80,150 +109,94 @@
     <div id="myCarousel" class="carousel slide" class="active">
             <div class="carousel-inner" role="listbox">
               <div class="item active">
-                <img class="first-slide" src="assets/img/GCR-170310-6521.jpg" alt="First slide">
+                <img class="first-slide" src="assets/img/Coal-Mine-Cyn.jpg" alt="First slide">
                 <div class="container">
                   <div class="carousel-caption">
-
                   </div>
                 </div>
               </div>
             </div>
           </div><!-- /.carousel -->
-
-          <div class="container-fluid">
-             
-            <div class="row">    
-                <div class="col-md-2">&nbsp;</div>
-                <div class="col-md-8">
-                  <div class="row space-16">&nbsp;</div>
-                  <div class="row">
-                     <h2>Latest News</h2>
-                     <br>
-                    <div class="col-sm-4">
-                      <div class="thumbnailnews">
-                        <div class="caption text-center">
-                          <div class="thumbnail-description smaller">
-                              <p>20/05/2020</p>
-                                <p>  Pre-AGM webcast update</p>
-                              <a href="#" class="cta">Learn More </a><span class="ti-angle-right"></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-        
-                    <div class="col-sm-4">
-                     <div class="thumbnailnews">
-                       <div class="caption text-center">
-                         <div class="thumbnail-description smaller">
-                             <p>07/05/2020 </p>
-                              <p>Notice of Annual General Meeting</p>
-                             <a href="#" class="cta">Learn More</a><span class="ti-angle-right"></span>
-                         </div>
-                       </div>
-                     </div>
-                   </div>
-        
-                   <div class="col-sm-4">
-                     <div class="thumbnailnews">
-                       <div class="caption text-center">
-                         <div class="thumbnail-description smaller">
-                           <p>07/05/2020 </p>
-                           <p>First Quarter 2020 Production Report and General Update</p>
-                             <a href="#" class="cta">Learn More</a><span class="ti-angle-right"></span>
-                         </div>
-                       </div>
-                     </div>
-                   </div>
-                  </div>
-                  <div class="col-md-2">&nbsp;</div>
-                </div>
-              </div>
-          </div>
-
-          <div class="container-fluid">
-               <div class="row">
-                   <div class="col-md-2">&nbsp;</div>
-                   <div class="col-md-8">
-                     <div class="row space-16">&nbsp;</div>
-                     <div class="row">
-                       <div class="col-sm-4">
-                         <div class="thumbnailnews">
-                           <div class="caption text-center">
-                             <div class="thumbnail-description smaller">
-                              <p>13/05/2020 </p>
-                              <p>Update On Covid 19</p>                                 
-                              <a href="#" class="cta">Learn More </a><span class="ti-angle-right"></span>
-                             </div>
-                           </div>
-                         </div>
-                       </div>
-           
-                       <div class="col-sm-4">
-                        <div class="thumbnailnews">
-                          <div class="caption text-center">
-                            <div class="thumbnail-description smaller">
-                              <p>07/05/2020 </p>
-                              <p>Community Support Fund</p>
-                                <a href="#" class="cta">Learn More</a><span class="ti-angle-right"></span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-           
-                      <div class="col-sm-4">
-                        <div class="thumbnailnews">
-                          <div class="caption text-center">
-                            <div class="thumbnail-description smaller">
-                              <p>07/05/2020 </p>
-                              <p>2020 Distribution and Revolving Credit Facilities</p>
-                                <a href="#" class="cta">Learn More</a><span class="ti-angle-right"></span>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                     </div>
-                     <div class="col-md-2">&nbsp;</div>
-                   </div>
-                 </div>
-          </div>
+      
+          <hr>
           <hr>
 
-          <div class="container-fluid">
-                  <div class="row">
-                      <div class="col-md-2">&nbsp;</div>
-                      <div class="col-md-8">
-                        <div class="row space-16">&nbsp;</div>
-                        <div class="row">
-                           <h2>Keep up to date</h2>
-                          <div class="col-sm-6">
-                            <div class="thumbnailnews">
-                              <div class="caption text-center">
-                                <div class="thumbnail-description smaller">
-                                    <p>Facebook</p>
-                                    <a href="#" class="cta">Like Us On Facebook </a><span class="ti-angle-right"></span>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-              
-                          <div class="col-sm-6">
-                           <div class="thumbnailnews">
-                             <div class="caption text-center">
-                               <div class="thumbnail-description smaller">
-                                   <p>Website</p>
-                                   <a href="#" class="cta">Keep an eye for updates</a><span class="ti-angle-right"></span>
-                               </div>
-                             </div>
-                           </div>
-                         </div>
-                        </div>
-                        <div class="col-md-2">&nbsp;</div>
-                      </div>
-                    </div>
-                  </div>
+<div class="container">
+	<div class="">
+      <h2 style="text-align: center;">Meet Our Graduates</h2>
+      <p></p>
+	</div>
+    
+    <div>
+       <!---- <button class="btn btn-primary filter-button" data-filter="all">All</button>-->
+       <!----   <button class="btn btn-default filter-button" data-filter="photo">Photo</button>-->
+       <!-- <button class="btn btn-default filter-button" data-filter="graphic">Our Board</button> -->
+        <!----  <button class="btn btn-default filter-button" data-filter="webdesign"></button> -->
+    </div>
+    <br/>
+    
+    <div class="row">
+        <div class="col-md-3 filter photo">
+            <div class="each-item">
+                <img class="port-image" src="assets/img/profile-photo-placeholder.jpg"/>
+                <div class="cap1">
+                  <h4>Profile</h4>
+                </div>
+                <div class="cap2">
+                    <p class="text-center">Name</p>
+                </div>
+                
+            </div>
+            <h4>Mechanical Engineering</h4>
+            
+        </div>
+
+        <div class="col-md-3 filter photo">
+         <div class="each-item">
+             <img class="port-image" src="assets/img/profile-photo-placeholder.jpg"/>
+             <div class="cap1">
+               <h4>Profile</h4>
+             </div>
+             <div class="cap2">
+                 <p class="text-center">Name</p>
+             </div>
+             
+         </div>
+         <h4>Mining Engineering</h4>
+         
+     </div>
+
+     <div class="col-md-3 filter photo">
+      <div class="each-item">
+          <img class="port-image" src="assets/img/profile-photo-placeholder.jpg"/>
+          <div class="cap1">
+            <h4>Profile</h4>
+          </div>
+          <div class="cap2">
+              <p class="text-center">Name</p>
+          </div>
           
-         
-         
+      </div>
+      <h4>Financail Accounting</h4>
+      
+  </div>
+        
+        <div class="col-md-3 filter graphic photo">
+            <div class="each-item">
+                <img class="port-image" src="assets/img/profile-photo-placeholder.jpg"/>
+                <div class="cap1">
+                  <h4>Profile</h4>
+                   
+                </div>
+                <div class="cap2">
+                    <p class="text-center">Name</p>
+                </div>
+            </div>
+            <h4>Mechanical Engineering</h4>
+        </div>
+            
+    </div>
+</div>
 
 
            <footer id="footer" class="footer">
@@ -314,7 +287,7 @@
  <script type="text/javascript" src="assets/js/bootstrap-datepicker.js"></script> 
  <!-- Ajax contact form  -->
  <script type="text/javascript" src="assets/js/app.js"></script>
-
+ 
  <!-- Custom js -->
  <script src="assets/js/custom.js"></script> 
     
