@@ -1,0 +1,112 @@
+ <section id="mu-gallery">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="mu-gallery-area">
+
+            <div class="mu-title">
+              <h2>Our Gallery</h2>
+            </div>
+
+            <div class="mu-gallery-content">
+            
+              <!-- Start gallery image -->
+              <div class="mu-gallery-body">
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">
+                    <div class="mu-single-gallery-item">
+	                    <figure class="mu-single-gallery-img">
+                          <img width="550px" alt="img" src="assets/img/Community/WhatsApp Image 2020-01-28 at 11.53.41.jpeg">
+	                    </figure>            
+                  	</div>
+                </div>
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">
+                  	 <div class="mu-single-gallery-item">
+                        <figure class="mu-single-gallery-img">
+                            <img height="240px" width="550px" alt="img" src="assets/img/Community/WhatsApp Image 2020-01-28 at 11.58.30.jpeg">
+                        </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	 <div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                          <img height="240px" width="550px" alt="img" src="assets/img/Community/WhatsApp Image 2020-01-28 at 11.58.27 (1).jpeg">
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                        
+                          <img height="240px" width="550px" alt="img" src="assets/img/Community/WhatsApp Image 2020-01-28 at 11.58.28.jpeg">
+                      </figure>            
+                    </div>
+                </div>
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                          <img height="240px" width="550px" alt="img" src="assets/img/Community/WhatsApp Image 2020-01-28 at 11.56.48.jpeg">
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->  
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                   <div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                          <img height="240px" width="550px" alt="img" src="assets/img/Community/WhatsApp Image 2020-01-28 at 11.58.34.jpeg">
+                      </figure>            
+                    </div>
+                </div>
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                          <img height="240px" width="550px" alt="img" src="assets/img/Community/WhatsApp Image 2020-01-28 at 11.58.31.jpeg">
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                          <img height="240px" width="550px" alt="img" src="assets/img/Community/WhatsApp Image 2020-01-28 at 11.58.32.jpeg">
+                      </figure>            
+                    </div>
+                </div>               
+                <!-- End single gallery image -->
+
+                <!-- start single gallery image -->
+                <div class="mu-single-gallery col-md-4">                  
+                  	<div class="mu-single-gallery-item">
+                      <figure class="mu-single-gallery-img">
+                          <img height="240px" width="550px" alt="img" src="assets/img/Community/WhatsApp Image 2020-01-28 at 11.53.43.jpeg">
+                      </figure>            
+                    </div>
+                </div>
+                <!-- End single gallery image -->  
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
