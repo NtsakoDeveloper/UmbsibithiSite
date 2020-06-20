@@ -410,6 +410,8 @@ list-style-type: none;
   height: 370px;
   width:100%;
   background-image: url(assets/img/Community/WhatsApp\ Image\ 2020-01-28\ at\ 11.58.27\ \(1\).jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 
