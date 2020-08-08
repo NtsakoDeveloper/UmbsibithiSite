@@ -18,7 +18,10 @@
 
 
 
-
+.thumbnailCircle{
+    height: 200px;
+    width:100%;
+}
 
 .thumbnail {
     height: auto;
