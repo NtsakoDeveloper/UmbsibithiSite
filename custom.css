@@ -29,7 +29,7 @@
     transition: 0.3s;
     min-width: 40%;
     border-radius: 5px;
-    height: 370px;
+    height: auto;
     width:100%;
     background-image: url(assets/img/ab4.JPG);
     background-repeat: no-repeat;
@@ -41,7 +41,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
     transition: 0.3s;
     border-radius: 5px;
-    height: 550px;
+    height: auto;
     width:100%;
     background-image: url(assets/img/ab4.JPG);
     background-size: cover;
@@ -62,7 +62,7 @@
     transition: 0.3s;
     min-width: 40%;
     border-radius: 5px;
-    height: 300px;
+    height: auto;
     width:100%;
     background-image: url(assets/img/Community/WhatsApp\ Image\ 2020-01-28\ at\ 11.58.35.jpeg)
 
