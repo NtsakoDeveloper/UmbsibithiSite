@@ -21,11 +21,7 @@
 
 
 .thumbnail {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
-    transition: 0.3s;
-    min-width: 40%;
-    border-radius: 5px;
-    height: 469px;
+    height: auto;
     width:100%;
   }
 
